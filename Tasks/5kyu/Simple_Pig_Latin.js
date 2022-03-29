@@ -11,4 +11,3 @@ function pigIt(str) {
 
 pigIt('Pig latin is cool')
 pigIt('Hello world !')
-
