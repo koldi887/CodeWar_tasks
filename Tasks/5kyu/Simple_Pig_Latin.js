@@ -1,0 +1,14 @@
+function pigIt(str) {
+    const arr = str.split(' ')
+    return arr
+        .map((word) => {
+            return word.match(/[A-z]/i)
+                ? `${word.substr(1)}${word.substr(0, 1)}ay`
+                : word
+        })
+        .join(' ')
+}
+
+pigIt('Pig latin is cool')
+pigIt('Hello world !')
+
